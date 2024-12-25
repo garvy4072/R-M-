@@ -33,9 +33,9 @@
 	margin-left: 10px;
 }
 .service .btn button {
-	background-color: rgb(8, 65, 171);
+	background-color: rgb(64, 129, 249);
 	border: none;
-	border-radius: 10px;
+	border-radius: 5px;
 	height: 50px;
 	font-size: 15.6px;
 	cursor: pointer;
@@ -45,4 +45,24 @@
 	width: 120px;
 	margin-left: 10px;
 	color: white;
+}
+@media only screen and (max-width: 768px) {
+	.service {
+		font-size: 0.5rem;
+		height: 13vh;
+		justify-content: space-around;
+	}
+	.service h4 {
+		height: 40px;
+		width: 100%;
+		margin-bottom: 0px;
+	}
+	.service .btn button {
+		width: 60px;
+		height: 20px;
+
+		top: -4px;
+		margin-left: 5px;
+		font-size: 8px;
+	}
 }

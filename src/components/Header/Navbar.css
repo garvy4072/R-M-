@@ -51,7 +51,28 @@ ul li a {
 	height: 40px;
 	font-size: 16px;
 	font-family: 'Roboto Mono', serif;
-
+	border-radius: 5px;
+	font-weight: 500;
 	width: 120px;
 	color: white;
+}
+@media only screen and (max-width: 900px) {
+	header {
+		padding: 0px;
+	}
+	.logo {
+		font-size: 24px;
+		margin-left: 10px;
+	}
+	ul {
+		padding-left: 2px;
+	}
+	ul li a {
+		font-size: 10px;
+	}
+	.right button {
+		width: 80px;
+		font-size: 10px;
+		margin-right: 10px;
+	}
 }
