@@ -1,0 +1,25 @@
+/** @format */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+#root {
+	/* height: max-content; */
+	/* width: 100%; */
+	background-image: linear-gradient(
+		180deg,
+		rgb(58, 58, 249),
+		rgb(8, 8, 155) /* #010430 */
+	);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #fff;
+	font-family: 'Montserrat', serif;
+}
