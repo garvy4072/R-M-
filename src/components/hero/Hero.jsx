@@ -4,7 +4,9 @@ import React, { useEffect, useState } from 'react';
 import './Hero.css';
 import Chart from 'chart.js/auto';
 import { Bar, Line, Radar } from 'react-chartjs-2';
+import { useNavigate } from 'react-router-dom';
 function Hero() {
+	const navigate = useNavigate();
 	const [chartData, setChartData] = useState([10, 20, 30, 40]);
 	const [chartData2, setChartData2] = useState([10, 20, 30, 40]);
 
@@ -25,7 +27,7 @@ function Hero() {
 	useEffect(() => {
 		setInterval(() => {
 			getRandomnumber();
-		}, 5000);
+		}, 3000);
 		return () => {
 			clearInterval();
 		};
@@ -38,7 +40,12 @@ function Hero() {
 					<br /> To Our
 				</h1>
 				<h1>Reporting and Marketing Analysis</h1>
-				<button>Contact Us</button>
+				<button
+					onClick={() => {
+						navigate('/contact');
+					}}>
+					Contact Us
+				</button>
 			</div>
 			<div className={'box'}>
 				<Radar

@@ -18,7 +18,10 @@ function Contact() {
 		<div className='ff'>
 			{state.succeeded ? (
 				<div className='success'>
-					<h2>Thank you for your message!</h2>
+					<h2>
+						Thank you for your message! this mail goes to our developer
+						GARVYXXX.com email
+					</h2>
 					<p>Our team will get back to you soon.</p>
 				</div>
 			) : (

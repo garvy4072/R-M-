@@ -10,7 +10,10 @@
 }
 .about__container {
 	display: flex;
+	width: 100%;
 	justify-content: space-around;
+	margin: 20px 0px;
+	margin-bottom: 0px;
 }
 .about__container2 {
 	display: flex;
@@ -26,12 +29,12 @@ p {
 	color: rgb(177, 214, 255);
 	margin-top: 60px;
 	font-weight: 500;
-	font-size: 1.9rem;
+	font-size: 1.4rem;
 	transition: 0.3s;
 }
 .img {
-	width: 40vw !important;
-	height: 55vh;
+	width: 35vw !important;
+	height: 50vh;
 	transition: width 0.5s;
 }
 .img img {
@@ -41,8 +44,14 @@ p {
 	border-radius: 20%;
 	transition: 0.3s;
 }
-.about-text2 {
+.about-text {
 	width: 40vw !important;
+	height: 100%;
+	position: relative;
+}
+
+.about-text2 {
+	width: 40vw;
 	height: 100%;
 	position: relative;
 }

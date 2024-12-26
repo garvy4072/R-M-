@@ -58,6 +58,10 @@ textarea {
 	margin: 20px;
 	font-size: 16px;
 }
+.ff h1 {
+	border-bottom: 2px solid #ffffff;
+	padding-bottom: 20px;
+}
 @media only screen and (max-width: 786px) {
 	.input-form {
 		width: 90%;
