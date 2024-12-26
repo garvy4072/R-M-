@@ -30,7 +30,6 @@ function Hero() {
 			clearInterval();
 		};
 	}, []);
-	console.log(chartData);
 	return (
 		<div className='hero'>
 			<div className='text'>
